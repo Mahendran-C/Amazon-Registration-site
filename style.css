@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.logo{  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.logo img{
+    width: 100px;
+    height: 32px;
+    margin-top: 15px ;
+}
+.logo span{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    font-size: 13px;
+}
+.card{
+    width: 350px;
+    margin: auto;
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.card h1{
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 16px;
+    opacity: 0.9;
+
+}
+
+.card label{
+    font-size: 13px;
+    /* padding-left: 2px; */
+    padding-bottom: 30px;
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+.card input{
+    width: 100%;
+    padding: 6px 8px;
+    margin: 4px 0 12px 0;
+    border: 1px solid #aaa;
+    border-radius: 4px ;
+}
+
+.card input:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+    border: 1px solid #111;
+
+}
+.card p{
+    font-size: 13.5px;
+    line-height: 18px;
+}
+
+.mobile p{
+    margin: 4px 0 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile select{
+    width: 80px;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 0px 4px #ddd;
+}
+.mobile input{
+    width: 210px;
+}
+
+.pwd p{
+    font-size: 12px;
+    margin: 4px 0 20px 0;
+}
+
+.card button{
+    width: 100%;
+    margin: 16px 0;
+    padding: 8px 0;
+    color: #111;
+    background: #fcd701;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.buisnessLink{
+    margin: 12px 0;
+    padding: 14px 8px;
+    line-height: 20px;
+    border-top:1px solid #ddd ;
+    box-shadow: 1px 1px 3px #ddd;
+    filter: drop-shadow(2px 2px 3px #ddd);
+}
+.buisnessLink h5{
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+/* .buisnessLink a{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    font-size: 13px;
+    
+} */
+.signinLink{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+footer{
+    width: 350px;
+    padding: 8px 0;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .links {
+    width: 100%;
+    padding: 8px;
+   display: flex;
+   justify-content: space-around;
+}
+footer p{
+    margin-top: 12px;
+    font-size: 13.5px;
+    text-align: justify;
+    opacity: 0.7;
+}
+
